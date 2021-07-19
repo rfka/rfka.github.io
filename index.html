@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./assets/script.js" defer></script> <!-- [defer] aguarda o html ser carregado por completo -->
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Contador Regressivo v. 0.2 -  BLUE EdTech!!</title>
+</head>
+<body>
+    <div class="tudo">
+        <header>
+            <div class="header">
+                <img src="./assets/img/logo-blue-croped.gif" alt="header">
+                <h1>Contador Regressivo v. 0.2 -  BLUE EdTech!!</h1>
+            </div>
+        </header>
+        <section>
+            <div class="section_esquerda">
+                <div id="tempo">
+                    <div>
+                        <h1>Digite o tempo para o contador:</h1>
+                    </div>
+                    <div>
+                        <input type="text" name="tempo_duracao" id="duracao_id" required /> <br />
+                        <input type="submit" onclick="iniciar_cronometro()" value="Começar!!!" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="section_centro">
+                <div id="timer" class="cor_contador">
+                    00:00
+                </div>
+                <div id="">
+                    <p id="resposta"></p>
+                </div>
+                <div class="musica">
+                    <iframe class="youtube" width="426" height="240" src=" " title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="section_direita">
+                <div class="video">
+                    <h1>Cole aqui o link para reproduzir o video do Youtube!!</h1>
+                    <input id="video" type="text" name="video" id="video" required/>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            
+        </footer>
+    </div>
+</body>
+</html>
