@@ -117,6 +117,7 @@ input{
     color: yellow;
     font-size: 65px;
     text-shadow: rgb(24, 21, 21) 3px 2px;
+    font-family: orbitron;
 }
 
 .fim,
@@ -126,11 +127,12 @@ input{
     font-size: 80px;
     text-shadow: rgb(24, 21, 21) 3px 2px;
     text-align: center;
+    font-family: orbitron;
 }
 
-.musica{
-    /* border: solid black 1px; */
-}
+/* .musica{
+    /* border: solid black 1px; 
+} */
 
 .ocultar{
     visibility: hidden;
