@@ -17,6 +17,7 @@ body{
     padding: 20px;
     display: flex;
     justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 
@@ -79,7 +80,7 @@ input{
 }
 
 #timer{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: orbitron;
 }
 
 #tempo input[type=submit]{
