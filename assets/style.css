@@ -21,7 +21,8 @@ body{
 
 }
 
-h1{
+h1,
+h3{
     color: white;
     text-shadow: rgb(24, 21, 21) 3px 2px;
     padding: 10px;
@@ -30,7 +31,7 @@ h1{
 .tudo{
     background-color: blue;
     width: 1920px;
-    height: 768px;
+    min-height: 700px;
     border-radius: 10px;
 }
 
@@ -63,6 +64,7 @@ section{
 .section_centro{
     padding-top: 10px;
     width: 500px;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -73,6 +75,32 @@ section{
     width: 350px;
     text-align: center;
     padding-top: 130px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 500px;
+    border-top: solid rgb(221, 219, 219) 2px;
+    margin-top: 20px;
+}
+
+.rs{
+    display: flex;
+    justify-content: center;
+}
+
+.rs img{
+    height: 50px;
+    padding: 5px;
 }
 
 input{

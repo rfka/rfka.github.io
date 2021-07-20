@@ -16,7 +16,7 @@ function startTimer(duration, display) {
             timer = 0;
             document.querySelector("#timer").classList.remove("terminando");
             document.querySelector("#timer").classList.add("fim");
-            document.querySelector(".youtube").setAttribute("src", " ");
+            document.querySelector(".youtube").remove();
         }
     }, 1000);
 }
